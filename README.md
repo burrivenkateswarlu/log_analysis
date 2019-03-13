@@ -30,3 +30,18 @@ Install Vagrant & VirtualBox
 - Again exit directory `cd ..`
 - Change directory path `cd vagrant`
 - Update ubunut version using command `sudo apt-get update`
+## We have to install postgresql
+- Install postgresql using command `sudo apt-get install postgresql`
+- Connect to postgres using command `psql su - postgres`
+## We have to install modules
+- Import psycopg2 module to connect database using command `pip install psycopg2`
+- Create super user vagrant
+- Create news database with owner vagrant using command `create database news;`
+- Change ownership of database using command `alter database news owner to vagrant;`
+- Exit the current running status using command `\q`
+- Logout from the current user using command `logout`
+-load the data in local database using the command:
+  ```
+    $ psql -d news -f newsdata.sql
+  ```
+- run `python log_ana.py`
