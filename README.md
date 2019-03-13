@@ -44,4 +44,4 @@ Install Vagrant & VirtualBox
   ```
     $ psql -d news -f newsdata.sql
   ```
-- run `python log_ana.py`
+- run `python LogAnalysis_udacity.py`
