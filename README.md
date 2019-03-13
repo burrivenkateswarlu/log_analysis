@@ -21,3 +21,12 @@ This project consists for the following files are:
 ## Dependencies
 - [Vagrant](https://www.vagrantup.com/)
 - [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+## How to Install and Run the Project
+Install Vagrant & VirtualBox
+- Create Vagrant file `vagrant init ubuntu/xenial64`
+- Connect to VirtualMachine `vagrant up`
+- Login to VirtualMachine `vagrant ssh`
+- Exit from current directory  `cd ..`
+- Again exit directory `cd ..`
+- Change directory path `cd vagrant`
+- Update ubunut version using command `sudo apt-get update`
