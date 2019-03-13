@@ -18,3 +18,6 @@ This project consists for the following files are:
 1. Python
 2. Vagrant
 3. VirtualBox
+## Dependencies
+- [Vagrant](https://www.vagrantup.com/)
+- [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
