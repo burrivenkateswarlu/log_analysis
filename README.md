@@ -45,4 +45,5 @@ Install Vagrant & VirtualBox
     $ psql -d news -f newsdata.sql
   ```
 - run `python LogAnalysis_udacity.py`
+
 Then will get output as in OutPut.jpg
