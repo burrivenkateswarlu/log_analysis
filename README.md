@@ -14,3 +14,7 @@ This project consists for the following files are:
 - newsdata.sql -  it is a database file
 - views.sql - it consists of views of database
 - output.png -image of the result
+## Requirements for the project
+1. Python
+2. Vagrant
+3. VirtualBox
